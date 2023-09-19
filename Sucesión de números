@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(){
+	
+	int a=-1;
+	int i=1;
+	int t=-5;
+	
+	for(a<=-1;a>=-5;a++)
+		for(i>=1;i<=5;i++)
+		do{
+			printf("%d",i);
+			printf("%d ",a);
+			a--;
+			t++;
+		}while(t<=-5);
+	
+	return 0;
+}
